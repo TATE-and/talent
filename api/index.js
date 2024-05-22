@@ -6,6 +6,17 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
+app.get('/user', (req, res) => (
+  consy user = {
+  id:  "1",
+  name: "Tate",
+  email: "tate05nta@gmail.com"
+  }
+  res.json(user)
+))
+
 app.listen(port, () => {
   console.log(`server  running on port ${port}`)
 })
+
+module.exports = app;

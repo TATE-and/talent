@@ -12,7 +12,7 @@ app.get('/user', (req, res) => (
   name: "Tate",
   email: "tate05nta@gmail.com"
   }
-  res.json(user)
+  res.json(user))
 ))
 
 app.listen(port, () => {

@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/user', (req, res) => (
-  consy user = {
+  const user = {
   id:  "1",
   name: "Tate",
   email: "tate05nta@gmail.com"
